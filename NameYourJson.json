@@ -1,0 +1,17 @@
+{
+  "launcherTitle": "Epic Adventure application",
+  "applicationZipUrl": "https://raw.githubusercontent.com/user/repo/main/application.zip",
+  "backgroundImageUrl": "https://example.com/background.jpg",
+  "titleIconUrl": "https://example.com/icon.png",
+  "version": "1.0.0",
+  "extractPath": "EpicAdventure",
+  "addToProgramsFiles": false,
+  "addDesktopShortcut": true,
+  "mainExecutable": "EpicAdventure.exe",
+  "screenshots": [
+    "https://example.com/screenshot1.jpg",
+    "https://example.com/screenshot2.jpg",
+    "https://example.com/screenshot3.jpg"
+  ],
+  "videoUrl": "https://www.yourhosting.com/videplayer.mp4"
+}
