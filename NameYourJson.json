@@ -1,17 +1,36 @@
 {
-  "launcherTitle": "Epic Adventure application",
-  "applicationZipUrl": "https://raw.githubusercontent.com/user/repo/main/application.zip",
-  "backgroundImageUrl": "https://example.com/background.jpg",
-  "titleIconUrl": "https://example.com/icon.png",
-  "version": "1.0.0",
-  "extractPath": "EpicAdventure",
-  "addToProgramsFiles": false,
-  "addDesktopShortcut": true,
-  "mainExecutable": "EpicAdventure.exe",
-  "screenshots": [
-    "https://example.com/screenshot1.jpg",
-    "https://example.com/screenshot2.jpg",
-    "https://example.com/screenshot3.jpg"
-  ],
-  "videoUrl": "https://www.yourhosting.com/videplayer.mp4"
+  "settings": {
+    "fov": 75,
+    "mouseSensitivity": 1.0,
+    "moveSpeed": 40.0,
+    "jumpForce": 350.0,
+    "gravity": 9.8,
+    "playerHeight": 1.6
+  },
+  "weapons": [
+    {
+      "name": "AK-47",
+      "url": "https://files.catbox.moe/motbxd.glb",
+      "scale": 0.15,
+      "position": { "x": 0.2, "y": -0.25, "z": -0.6 },
+      "rotation": { "x": 0, "y": 3.14159, "z": 0 },
+      "animMap": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "shoot": "Shoot"
+      }
+    },
+    {
+      "name": "Pistol",
+      "url": "https://files.catbox.moe/dtzq3f.glb",
+      "scale": 0.8,
+      "position": { "x": 0.25, "y": -0.3, "z": -0.5 },
+      "rotation": { "x": 0, "y": 3.14159, "z": 0 },
+      "animMap": {
+        "idle": null,
+        "walk": null,
+        "shoot": null
+      }
+    }
+  ]
 }
